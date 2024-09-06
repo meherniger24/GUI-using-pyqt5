@@ -80,7 +80,7 @@ class CellViewer(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    npy_file = 'C:/Users/meher/stardist/segmentation_result.npy'  # Replace with the actual path to your .npy file
+    npy_file = 'C:/Users/meher/stardist/segmentation_result.npy'  
     viewer = CellViewer(npy_file)
     viewer.show()
     sys.exit(app.exec_())
